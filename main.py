@@ -31,7 +31,7 @@ HELP_TEXT = """
 <b><u>Informations :-</u></b>
 Name, Native Name, Capital, Population, Region, Sub Region, Top Level Domains, Calling Codes, Currencies, Residence, Timezone, Wikipedia, Google
 
-Made by @FayasNoushad
+A Project By ZER0BYTE™
 """
 ABOUT_TEXT = """
 - **Bot :** `Country Info Bot`
