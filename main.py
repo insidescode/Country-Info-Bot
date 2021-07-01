@@ -22,7 +22,7 @@ FayasNoushad = Client(
 START_TEXT = """
 Hello {}, I am a country information finder bot. Give me a country name I will send the informations of the country.
 
-Made by @FayasNoushad
+A Project By ZER0BYTE™
 """
 HELP_TEXT = """
 - Just send me a country name
@@ -35,17 +35,17 @@ Made by @FayasNoushad
 """
 ABOUT_TEXT = """
 - **Bot :** `Country Info Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Country-Info-Bot/tree/main)
+- **Creator :** [ƭµ ƭσɦ รɦα૨αɓเ ɦαเ](https://telegram.me/deeprajk)
+- **Channel :** [Zer0Byte Updates](https://t.me/Zer0ByteOfficial)
+- **Support :** [Zer0Byte Support](https://github.com/FayasNoushad/Country-Info-Bot/tree/main)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+- **Server :** [VPS AZURE](https://azure.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://t.me/Zer0ByteOfficial'),
+        InlineKeyboardButton('Support', url='https://t.me/Zer0ByteSupport')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -127,8 +127,8 @@ Timezone : `{country.timezones()}`
         InlineKeyboardButton('Wikipedia', url=f'{country.wiki()}'),
         InlineKeyboardButton('Google', url=f'https://www.google.com/search?q={country_name}')
         ],[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Updates', url='https://t.me/Zer0ByteOfficial'),
+        InlineKeyboardButton('Support', url='https://t.me/Zer0ByteSupport')
 
         ]]
     )
